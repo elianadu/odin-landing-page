@@ -8,6 +8,7 @@ body {
 
 nav{
     background-color: #1F2937;
+    padding: 0px 200px 0px 160px;
 }
 
 nav ul{
@@ -43,13 +44,20 @@ nav ul div {
     align-items: center;
     gap: 80px;
     color: #e5e7eb;
+    font-size: 18px;
     background-color: #1F2937;
-    padding: 40px 100px 100px;
+    padding: 40px 200px 100px;
+}
+
+.part-one h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    margin: 0px;
 }
 
 .part-one > p {
     margin: 20px;
-    padding: 100px 150px;
+    padding: 100px 200px;
     background-color: grey;
     text-align: center;
 }
@@ -66,30 +74,93 @@ nav ul div {
     flex-direction: column;
     justify-content: space-between; /* hm */
     align-items: center;
+    padding: 20px 250px 100px;
+}
+
+.part-two h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .part-two .boxes{
     display: flex;
-    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+.blue-box {
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
 }
 
 .part-three {
     display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
+    padding: 100px 350px;
+}
+
+.part-three .big-quote{
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+.part-three .speaker {
+    text-align: right;
+    color: #1F2937;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
 }
 
 .part-four {
     display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    padding: 10px;
+    padding: 80px;
 }
 
 .part-four .text {
     background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    gap: 50px;
 }
+
+.call {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.part-four button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 5px 30px;
+}
+
 
 footer {
     background-color: #1F2937;
