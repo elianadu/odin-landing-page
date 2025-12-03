@@ -1,0 +1,96 @@
+body {
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+nav{
+    background-color: #1F2937;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+nav ul .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+nav ul div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px;
+}
+
+
+.content {
+    flex: 1;
+}
+
+.part-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    color: #e5e7eb;
+    background-color: #1F2937;
+    padding: 40px 100px 100px;
+}
+
+.part-one > p {
+    margin: 20px;
+    padding: 100px 150px;
+    background-color: grey;
+    text-align: center;
+}
+
+.part-one button {
+    background-color: #3882f6;
+    padding: 5px 40px;
+    color: white;
+    border-radius: 6px;
+}
+
+.part-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* hm */
+    align-items: center;
+}
+
+.part-two .boxes{
+    display: flex;
+    margin: 20px;
+}
+
+.part-three {
+    display: flex;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.part-four {
+    display: flex;
+    color: white;
+    padding: 10px;
+}
+
+.part-four .text {
+    background-color: #3882f6;
+}
+
+footer {
+    background-color: #1F2937;
+}
